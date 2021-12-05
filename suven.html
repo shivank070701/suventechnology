@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style> 
+#abc{
+text-align:center;
+text:bold;
+padding-top:40px;}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+padding-left:190px;
+padding-top:100px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+ 
+}
+#xyz{
+padding-top:50px;
+padding-left:25px;
+padding-right:25px;
+text-align:justify;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Logo</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+       <a href="#"  class="w3-bar-item w3-button"><i class="fa fa-fw fa-search"></i></a>
+      <a href="#Home" class="w3-bar-item w3-button">Home</a>
+      <a href="#Product" class="w3-bar-item w3-button">Product</a>
+      <a href="#About" class="w3-bar-item w3-button">About</a>
+     <a href="#Blog" class="w3-bar-item w3-button">Blog</a>
+      <a href="#Testimonals" class="w3-bar-item w3-button">Testimonals</a>
+      <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="suven.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b></b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+</header>
+<div id="abc">
+<p>Hi folks, Welcome to Sctpl :)</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card" style="background-color:MediumSeaGreen">
+     <p>Some textIllud phantasma industria vexillum scriptor<br/>
+ accumsan fuit unquam cum 1500s, cum incognita est a printer</br>
+ tulit unam, et diripienda autem genus est genus ut libero.<br>
+ Sed etiam in saltu electronic condimentum, remanserant per se<br/>
+ unum. Is eram in 1960 popularized cum remissionis de Letraset<br/>
+ Folia accumsan locis, recentius in desktop software quasi <br/>
+operturus Jeep libellorum ex eros etiam accumsan.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card"style="background-color:DodgerBlue;">
+      <p>Some textIllud phantasma industria vexillum scriptor<br/>
+ accumsan fuit unquam cum 1500s, cum incognita est a printer</br>
+ tulit unam, et diripienda autem genus est genus ut libero.<br>
+ Sed etiam in saltu electronic condimentum, remanserant per se<br/>
+ unum. Is eram in 1960 popularized cum remissionis de Letraset<br/>
+ Folia accumsan locis, recentius in desktop software quasi <br/>
+operturus Jeep libellorum ex eros etiam accumsan.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card" style="background-color:Tomato;" >
+      
+      <p>Some textIllud phantasma industria vexillum scriptor<br/>
+ accumsan fuit unquam cum 1500s, cum incognita est a printer</br>
+ tulit unam, et diripienda autem genus est genus ut libero.<br>
+ Sed etiam in saltu electronic condimentum, remanserant per se<br/>
+ unum. Is eram in 1960 popularized cum remissionis de Letraset<br/>
+ Folia accumsan locis, recentius in desktop software quasi <br/>
+operturus Jeep libellorum ex eros etiam accumsan.</p>
+      
+    </div>
+  </div>
+  
+  
+</div>
+<div id="xyz">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</p>
+</div>
+
+
+</body>
+</html>
